@@ -32,7 +32,7 @@ touch database/database.sqlite
 
 4. **Run Database Migrations**
 ````bash
-php artisan migrate --seed
+php artisan migrate
 ````
 
 5. **Install Frontend Dependencies and Build Assets**
