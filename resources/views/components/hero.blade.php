@@ -8,6 +8,6 @@
   <section class="w-fit mx-auto text-white/80 z-30">
     <x-weather-trend :weather_trend="$weather_trend" />
   </section>
-  <img src="/img/leiderdorp.jpg" alt="Gemeente Leiderdorp"
+  <img src={{ url('img/leiderdorp.jpg') }} alt="Gemeente Leiderdorp"
     class="absolute inset-0 w-full h-full object-cover object-center z-10">
 </div>
