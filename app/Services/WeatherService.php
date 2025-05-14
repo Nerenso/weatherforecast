@@ -26,12 +26,12 @@ class WeatherService
 
     $weather_icons = json_decode(file_get_contents(base_path('utils/weathercode-icons.json')), false);
 
-    return view('welcome', [
+    return [
       'current_date' => $this->current_date,
       'weather_data' => $weather_data,
       'weather_icons' => $weather_icons,
       'weather_trend' => (object)$weather_trend,
-    ]);
+    ];
   }
 
   /**

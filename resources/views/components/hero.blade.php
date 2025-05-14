@@ -8,7 +8,6 @@
   <section class="w-fit mx-auto text-white/80 z-30">
     <x-weather-trend :weather_trend="$weather_trend" />
   </section>
-  <img
-    src="https://scontent-ams2-1.xx.fbcdn.net/v/t39.30808-6/480694007_1032054612302174_4072837477115034999_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=7TDYAHgT6i4Q7kNvwE-eBrr&_nc_oc=AdkyGhEXydadz-uJ9gLb8f61DPCxxFatPaUXkW44HNvKh_1pAK3RlQm6WO9o_KyAdurtgW8GL7VxD8JDgbByBKGi&_nc_zt=23&_nc_ht=scontent-ams2-1.xx&_nc_gid=U-yFOZ6rSqDwMMsHHenPsw&oh=00_AfFXSGaKVOnPVhDSykt0deKf6FCIa-V4VrlhiHm_Vofjng&oe=681DAE97"
-    alt="Gemeente Leiderdorp" class="absolute inset-0 w-full h-full object-cover object-center z-10">
+  <img src="{{ asset('img/leiderdorp.jpg') }}" alt="Gemeente Leiderdorp"
+    class="absolute inset-0 w-full h-full object-cover object-center z-10">
 </div>
